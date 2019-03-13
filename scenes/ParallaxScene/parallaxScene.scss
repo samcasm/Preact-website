@@ -22,7 +22,7 @@
 
     .react{
         position: absolute;
-        bottom: 30%;
+        top: 20%;
         left: 10%;
         width: 7%;
         img{
@@ -45,6 +45,46 @@
         position: absolute;
         right: 10%;
         top:10%;
+        img{
+            width: 100%;
+        }
+    }
+
+    .swift{
+        width: 8%;
+        position: absolute;
+        right: 19%;
+        top: 28%;
+        img{
+            width: 100%;
+        }
+    }
+
+    .ubuntu{
+        width: 16%;
+        position: absolute;
+        left: 19%;
+        bottom: 14%;
+        img{
+            width: 100%;
+        }
+    }
+
+    .python{
+        width: 16%;
+        position: absolute;
+        right: 12%;
+        bottom: 14%;
+        img{
+            width: 100%;
+        }
+    }
+
+    .p5{
+        width: 16%;
+        position: absolute;
+        left: 2%;
+        bottom: 30%;
         img{
             width: 100%;
         }
