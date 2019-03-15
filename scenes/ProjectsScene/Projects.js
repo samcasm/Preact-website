@@ -12,13 +12,25 @@ export default class Projects extends Component {
 				</div>
 				<div class="project-images">
 					<div>
-						<div>A box</div>
-						<div>A box</div>
+						<div>
+							<img src="/assets/cpath.png" />
+							<div class="inner-box">CRITICAL PATH</div>
+						</div>
+						<div>
+							<img src="/assets/gameOfLife.png" />
+							<div class="inner-box">GAME OF LIFE</div>
+						</div>
 					</div>
 					<div>
-						<div>A box</div>
-						<div>A box</div>
-					</div>	
+						<div>
+							<img src="/assets/moodset.png" />
+							<div class="inner-box">MOODSET</div>
+						</div>
+						<div>
+							<img src="/assets/cpath.png" />
+							<div class="inner-box">CRITICAL PATH</div>
+						</div>
+					</div>
 				</div>
 			</section>
 		);
