@@ -7,28 +7,27 @@ export default class Projects extends Component {
 		return (
 			<section class="projects">
 				<div class="header">
-					<h2>Projects</h2>
 					<p>My Personal Work</p>
 				</div>
 				<div class="project-images">
 					<div>
 						<div>
 							<img src="/assets/cpath.png" />
-							<div class="inner-box">CRITICAL PATH</div>
+							<div class="inner-box">Eidetic</div>
 						</div>
 						<div>
 							<img src="/assets/gameOfLife.png" />
-							<div class="inner-box">GAME OF LIFE</div>
+							<div class="inner-box">Game Of Life</div>
 						</div>
 					</div>
 					<div>
 						<div>
 							<img src="/assets/moodset.png" />
-							<div class="inner-box">MOODSET</div>
+							<div class="inner-box">Moodset</div>
 						</div>
 						<div>
 							<img src="/assets/cpath.png" />
-							<div class="inner-box">CRITICAL PATH</div>
+							<div class="inner-box">Critical Path</div>
 						</div>
 					</div>
 				</div>

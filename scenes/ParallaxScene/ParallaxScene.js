@@ -1,24 +1,51 @@
-import { Component } from "preact";
+import { Component } from "react";
 import './parallaxScene';
-import Rellax from 'rellax';
 
+class TabComponent extends Component {
+    constructor(props) {
+		super(props);
+    }
+    render() {
+        return (
+            <li>
+							<a 
+									className={this.props.activeClass ? 'active': null} 
+                	onClick={this.props.onclick.bind(this, this.props.id)} 
+            	>{this.props.text}</a>
+            </li>
+        )
+  }
+}
 export default class ParallaxScene extends Component {
-	componentDidMount(){
-		let rellax = new Rellax('.rellax')
+	constructor(props) {
+        super(props);
+        this.state = {
+			tabs: ["Home", "My Work", "About me"],
+			activeClass : [true, false, false]
+		};
+		this.changeActiveClass = this.changeActiveClass.bind(this);
 	}
+
+	changeActiveClass(id){
+		let currentState = [false, false, false];
+		currentState[id] = true;
+		this.setState({activeClass: currentState})
+	}
+
+	componentDidMount(){
+		console.log(this.newelem);
+	}
+	
 	render() {
 		return (
-			<section class="parallax-scene">
+			<section class="parallax-scene" >
+				<div id="navbar">
+					<div class="initials">Samir k.</div>
+					<ul>
+						{this.state.tabs.map((tab, i)=> <TabComponent id={i} text={tab} onclick={this.changeActiveClass} activeClass={this.state.activeClass[i]}/>)}
+					</ul>
+				</div>
 				<div class="description"><p>A New York based software engineer with two years of industry experience</p></div>
-				<div class="rellax js" data-rellax-speed="3"><img src="/assets/assetJS.png" /></div>
-				<div class="rellax node" data-rellax-speed="3"><img src="/assets/assetnodeJS.png" /></div>
-				<div class="rellax react" data-rellax-speed="3"><img src="/assets/assetreact.png" /></div>
-				<div class="rellax mongodb" data-rellax-speed="3"><img src="/assets/mongoDB.png" /></div>
-				<div class="rellax swift" data-rellax-speed="3"><img src="/assets/swift.png" /></div>
-				<div class="rellax python" data-rellax-speed="3"><img src="/assets/python.png" /></div>
-				<div class="rellax ubuntu" data-rellax-speed="3"><img src="/assets/ubuntu.png" /></div>
-				<div class="rellax p5" data-rellax-speed="3"><img src="/assets/p5.png" /></div>
-				<img class="guyprogramming" src="/assets/guyprogramming.png" />
 			</section>
 		);
 	}

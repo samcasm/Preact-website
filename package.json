@@ -17,6 +17,7 @@
     "build/*"
   ],
   "devDependencies": {
+    "babel-plugin-module-resolver": "^3.2.0",
     "eslint": "^4.5.0",
     "eslint-config-synacor": "^1.1.0",
     "if-env": "^1.0.0",
@@ -27,7 +28,7 @@
   "dependencies": {
     "aos": "^2.3.4",
     "preact": "^8.2.1",
-    "preact-compat": "^3.17.0",
+    "preact-compat": "^3.18.4",
     "rellax": "^1.8.0"
   }
 }
