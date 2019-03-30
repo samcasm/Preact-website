@@ -2,10 +2,13 @@ import { Component } from "preact";
 import './aboutMe';
 
 export default class ParallaxScene extends Component {
+	componentDidMount(){
+		this.props.updateState(this.aboutmeScene, "aboutmeScene")
+	}
 
 	render() {
 		return (
-			<section class="aboutMe">
+			<section class="aboutMe" ref={el => this.aboutmeScene = el}>
 				<div class="header">
 					<div class="context" >
 						<h2>Here's a little about me</h2>

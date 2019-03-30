@@ -2,10 +2,13 @@ import { Component } from "preact";
 import './projects';
 
 export default class Projects extends Component {
+	componentDidMount(){
+		this.props.updateState(this.projectsScene, "projectsScene")
+	}
 
 	render() {
 		return (
-			<section class="projects">
+			<section class="projects" ref={el=>this.projectsScene = el}>
 				<div class="header">
 					<p>My Personal Work</p>
 				</div>
