@@ -99,7 +99,7 @@ export default class ParallaxScene extends Component {
 					
 				</div>
 				{this.state.menuIsOpen ? <Menu onclick={this.navSelection}/> : null}
-				<div class="description"><p>A New York based software engineer who spends most of his time ideating and building software solutions that solve real world problems </p></div>
+				<div class="description"><p>A New York based software engineer who loves spending most of his time ideating and building software solutions that solve real world problems </p></div>
 			</section>
 		);
 	}

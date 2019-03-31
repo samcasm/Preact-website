@@ -11,7 +11,6 @@ export default class ParallaxScene extends Component {
 			<section class="aboutMe" ref={el => this.aboutmeScene = el}>
 				<div class="header">
 					<div class="context" >
-						<h2>Here's a little about me</h2>
 						<p>This website was built in Preact JS, because why not. Every element on this website is telling of my interests and pursuits until now, where any newly acquired skill is added on.</p>
 					</div>
 					<img  src="https://s3.us-east-2.amazonaws.com/samcasmbucket/profile-pic.jpeg" alt="profile-pic" />

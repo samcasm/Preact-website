@@ -20,27 +20,27 @@ export default class Projects extends Component {
 				</div>
 				<div class="project-images">
 					<div>
-						<div data-aos="fade-left">
+						<div data-aos="fade-left" id="Eidetic">
 							<a target="_blank" href="https://github.com/samcasm/Eidetic-the-beginning"></a>
-							<img src="/assets/cpath.png" />
-							<div class="inner-box">Eidetic</div>
+							<img src="/assets/eidetic.jpeg" />
+							<div class="inner-box"><p>Eidetic</p></div>
 						</div>
 						<div data-aos="fade-right">
 							<a target="_blank" href="https://github.com/samcasm/gameOfLife"></a>
 							<img src="/assets/gameOfLife.png" />
-							<div class="inner-box">Game Of Life</div>
+							<div class="inner-box"><p>Game Of Life</p></div>
 						</div>
 					</div>
 					<div>
 						<div data-aos="fade-left">
 							<a target="_blank" href="https://github.com/samcasm/moodset"></a>
 							<img src="/assets/moodset.png" />
-							<div class="inner-box">Moodset</div>
+							<div class="inner-box"><p>Moodset</p></div>
 						</div>
 						<div data-aos="fade-right">
 							<a target="_blank" href="https://github.com/samcasm/CriticalPathMethod"></a>
 							<img src="/assets/cpath.png" />
-							<div class="inner-box">Critical Path</div>
+							<div class="inner-box"><p>Critical Path</p></div>
 						</div>
 					</div>
 				</div>
