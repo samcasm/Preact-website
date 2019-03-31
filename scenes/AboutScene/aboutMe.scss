@@ -28,17 +28,17 @@
     }
     
     .footer{
-        font-weight: bold;
+        padding: 0px 12%;
         background-color: #383838;
         color: white;
         margin-top: auto;
         display: flex;
-        justify-content: space-evenly;
+        justify-content: space-between;
         align-items: center;
         list-style-type: none;
         height: 100px;
         margin-bottom: 0;
-        font-size: 14px;
+        font-size: 15px;
         letter-spacing: 2px;
 
         li{

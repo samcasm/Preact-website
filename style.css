@@ -5,6 +5,7 @@ html, body {
 	font-weight: 400;
 	margin: 0;
 	width: 100%;
+	position: relative;
 }
 
 h1 {

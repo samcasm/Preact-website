@@ -12,7 +12,6 @@ export default class ParallaxScene extends Component {
 				<div class="header">
 					<div class="context" >
 						<h2>Here's a little about me</h2>
-						<p>I've worked for two years as a web developer, built fully scalable applications with React and Node JS, maintained and optimized advanced MongoDB databases. My most recent project is an iOS application developed in Swift 4 and Python for server-side integration which is set to launch on the app store soon.</p>
 						<p>This website was built in Preact JS, because why not. Every element on this website is telling of my interests and pursuits until now, where any newly acquired skill is added on.</p>
 					</div>
 					<img  src="https://s3.us-east-2.amazonaws.com/samcasmbucket/profile-pic.jpeg" alt="profile-pic" />

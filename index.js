@@ -34,7 +34,7 @@ export default class App extends Component {
 	scrollComponentIntoView(id){
 		let state = {...this.state}
 		let componentName = id == 0 ? "parallaxScene" : id == 1 ? "projectsScene" : "aboutmeScene" 
-		this.state[componentName].scrollIntoView({behavior: 'smooth'})
+		this.state[componentName].scrollIntoView({behavior: 'smooth', block: 'start'})
 	}
 
 	render() {
